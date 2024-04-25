@@ -72,7 +72,6 @@ pip-delete-this-directory.txt
 .factorypath
 *.log
 *.ctxt
-*.jar
 *.war
 *.nar
 *.ear
@@ -158,19 +157,6 @@ tmp/
 app/**/*.js
 app/**/*.js.map
 node_modules/
-
-## Maven
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-.flattened-pom.xml
 
 # -----------------------------------------
 
