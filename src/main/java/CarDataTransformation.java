@@ -13,7 +13,7 @@ public class CarDataTransformation {
     }
 
     private void readFile() throws FileNotFoundException {
-        File file = new File("/Users/JF29771/Desktop/measurements.txt");
+        File file = new File("src/main/java/measurements.txt");
 
         Scanner sc = new Scanner(file);
         while (sc.hasNext()) {
